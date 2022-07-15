@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container, .inner{
+            height: 150px;
+            width: 150px;
+           
+        }
+        .container{
+            
+            background-color: aqua;
+            border: 2px solid khaki;
+        }
+        .inner{
+            background-color: rgb(244, 141, 6);
+            transform: scale(.5) rotate(45deg) translate(50px ,50px);
+            
+        }
+        .skew{
+            transform: skewY(10deg);
+        }
+    </style>
+    <title>Document</title>
+</head>
+<div class="container box">
+    <div class="inner skew">Box-1</div>
+</div>
+<div class="container box">
+    <div class="inner">Box-2</div>
+</div>
+<div class="container box">
+    <div class="inner">Box-3</div>
+</div>
+</body>
+</html>
